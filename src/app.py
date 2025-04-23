@@ -1,6 +1,4 @@
-"""
-This module takes care of starting the API Server, Loading the DB and Adding the endpoints
-"""
+
 import os
 from flask import Flask, request, jsonify # type: ignore
 from flask_cors import CORS # type: ignore
